@@ -1,0 +1,50 @@
+.project {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project h2 {
+  margin-top: 50px;
+  color: #3e497a;
+  font-size: 25px;
+  text-align: center;
+  width: 70%;
+}
+.project img {
+  max-width: 100%;
+  /* max-width: 25rem; */
+  height: 30rem;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project p {
+  font-size: 20px;
+  width: 60%;
+  color: #3e497a;
+}
+
+.project svg {
+  font-size: 60px;
+  color: #3e497a;
+}
+
+@media only screen and (max-width: 768px) {
+  .project {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+  }
+  .project h2 {
+    margin-top: 2rem;
+    font-size: 22px;
+    width: 100%;
+  }
+  .project p {
+    width: 100%;
+  }
+}
