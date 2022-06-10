@@ -6,15 +6,17 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h1>Zespół Aspergera i Dolina Krzemowa</h1>
+        <h1>Zespół Aspergera i&nbsp;Dolina Krzemowa</h1>
         <div className="prompt">
           <p>
             Zespół Aspergera powiązano z wysokimi osiągnięciami matematyków,
-            fizyków, informatyków oraz inżynierów i stwierdzono, że zespół
-            często współgra z osiągnięciami na najwyższym poziomie w tych
-            dziedzinach.
+            fizyków, informatyków oraz inżynierów i&nbsp;stwierdzono, że zespół
+            często współgra z&nbsp;osiągnięciami na najwyższym poziomie
+            w&nbsp;tych dziedzinach.
           </p>
-          <p>Bez ludzi z zespołem Aspergera nie byłoby Doliny Krzemowej.</p>
+          <p>
+            Bez ludzi z&nbsp;zespołem Aspergera nie byłoby Doliny Krzemowej.
+          </p>
           <a href="mailto:puaro@vp.pl">
             <MdOutlineMail />
           </a>
