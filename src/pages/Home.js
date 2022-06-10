@@ -15,7 +15,9 @@ function Home() {
             dziedzinach.
           </p>
           <p>Bez ludzi z zespołem Aspergera nie byłoby Doliny Krzemowej.</p>
-          <MdOutlineMail />
+          <a href="mailto:puaro@vp.pl">
+            <MdOutlineMail />
+          </a>
         </div>
       </div>
       <div className="skills">

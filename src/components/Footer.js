@@ -11,10 +11,34 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <FaInstagram />
-        <FaTwitter />
-        <FaFacebookF />
-        <FaPinterestP />
+        <a
+          href="//www.instagram.com/p/CCqV4hCFqYl"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram />
+        </a>
+        <a
+          href="//twitter.com/LibrusPL/status/1491354864802480128"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTwitter />
+        </a>
+        <a
+          href="//pl-pl.facebook.com/AspergerowyWorld"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaFacebookF />
+        </a>
+        <a
+          href="//pl.pinterest.com/grunia9269/zesp%C3%B3%C5%82-aspergera"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaPinterestP />
+        </a>
       </div>
       <p>Radom 2022 - {new Date().getFullYear()}.</p>
     </div>

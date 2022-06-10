@@ -1,3 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+Sitemap: https://asperger.netlify.app/sitemap.xml
+Host: https://asperger.netlify.app
