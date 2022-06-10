@@ -55,6 +55,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   grid-gap: 1rem;
+  /* margin: auto; */
 }
 
 .list .item {
@@ -77,12 +78,12 @@
     width: 80%;
   }
 
-  .skills {
+  .skills .list {
     text-align: center;
-  }
-  .list {
     padding: 0;
+    width: 100%;
   }
+
   .skills h2 {
     font-size: 25px;
   }
